@@ -1,0 +1,139 @@
+*, *::before, *::after {
+    padding: unset;
+    margin: unset;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 18px; */
+     /* line-height: 30px;  */
+    /* line-height: 1.6; */
+  }
+
+.img_cnt img {
+    display: block;
+    width: 100%;
+    height: auto;
+ }
+  /* .btn-price {
+    background-color: none;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+
+ .btn-more {
+    background-color: #FFD83C;
+    border: 0.5px solid #CBA500;
+    border-radius: 20px;
+ } */
+
+ button.btntime {
+width: 73px;
+border-radius: 11px;
+background: #C5DCFF;
+border-radius: 11px;
+border-style: hidden;
+ } 
+
+ /* img { border-radius: 25px 25px 0px 0px; } */
+
+ .bg-image1 {
+    background-image: url('./images/ekskursii-po-spb-na-avtobuse\ 1.jpg');
+    width: 473px;
+    height: 369px;
+    border-radius: 16px 0px 0px 16px;
+ }
+ .btn_new {
+    margin: 46px 0px 0px -317px;
+    padding: 0px;
+    background-color:#099CE8;
+    width: 154px;
+    height: 42px;
+    border: 0;
+    }
+
+   @media (max-width: 768px) {
+    .bg-image1 {
+        background-image: url('./images/sankt-peterburg-piter-st-3495.jpg');
+        border-radius: 16px 16px 0px 0px;
+        object-position: -150px 0px;
+        /* background-size: 100%; */
+        background-size: cover;
+    }
+    .btn_new {
+        margin: 26px 0px 0px -225px;
+        padding: 0px;
+        background-color:#099CE8;
+        width: 154px;
+        height: 42px;
+        border: 0;
+    }
+   
+  } 
+  .btn_more {
+    width: 149px;
+    height: 43px;
+    border-radius: 23px;
+    background-color: #FFD83C;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 10px;
+    border: 0;
+  }
+
+ .bg-image2 {
+    background-image: url('./images/AdobeStock_168443825\ 1.jpg');
+    width: 472px;
+    height: 369px;
+    border-radius: 16px 0px 0px 16px;
+ }
+ @media (max-width: 768px) {
+    .bg-image2 {
+        background-image: url('./images/sankt-peterburg-piter-st-3495.jpg');
+        border-radius: 16px 16px 0px 0px;
+        object-position: -150px 0px;
+        /* background-size: 100%; */
+        background-size: cover;
+    }
+    .btn_new2 {
+        margin: 26px 0px 0px -225px;
+        padding: 0px;
+        background-color:#099CE8;
+        width: 154px;
+        height: 42px;
+        border: 0;
+    }
+}
+
+.btn_new2 {
+    margin: 46px 0px 0px -13px;
+    padding: 0px;
+    background-color:#FFD83B;
+    width: 154px;
+    height: 42px;
+    border: 0;
+}
+ .bg-image3 {
+    background-image: url('./images/music\ 1.jpg');
+    width: 467px;
+    height: 368px;
+    border-radius: 16px 0px 0px 16px;
+ }
+ .card_ctn {
+    width: 597px;
+    height: 369px;
+ }
+ .card_ctn3 {
+    width: 602px;
+    height: 369px;
+ }
